@@ -1,0 +1,17 @@
+/*PREV/NEXT POST*/
+
+.prev-next-posts {
+  margin-top:30px;
+  width:100%;
+  float:left;
+  border-top:1px solid #dbdbdb;
+  display:block;
+  .prev-posts-link {
+    padding:15px;
+    float:right;
+  }
+  .next-posts-link {
+    padding:15px;
+    float:left;
+  }
+} 

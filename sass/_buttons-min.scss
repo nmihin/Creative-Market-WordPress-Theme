@@ -1,0 +1,28 @@
+.pure-button::-moz-focus-inner,.wpcf7-submit::-moz-focus-inner {
+border:0;
+padding:0;
+}
+
+
+.pure-button:focus,.wpcf7-submit .pure-button:focus {
+outline:0;
+}
+
+.pure-button-active,.pure-button:active,.wpcf7-submit .pure-button-active,.wpcf7-submit .pure-button:active{
+box-shadow:0 0 0 1px rgba(0,0,0,.15) inset,0 0 6px rgba(0,0,0,.2) inset;
+}
+
+.pure-button[disabled],.pure-button-disabled,.pure-button-disabled:hover,.pure-button-disabled:focus,.pure-button-disabled:active,.wpcf7-submit .pure-button[disabled],.wpcf7-submit .pure-button-disabled,.wpcf7-submit .pure-button-disabled:hover,.wpcf7-submit .pure-button-disabled:focus,.wpcf7-submit .pure-button-disabled:active {
+border:0;
+background-image:none;
+filter:alpha(opacity=40);
+-khtml-opacity:.4;
+-moz-opacity:.4;
+opacity:.4;
+cursor:not-allowed;
+box-shadow:none;
+}
+
+.pure-button-hidden {
+display:none;
+}

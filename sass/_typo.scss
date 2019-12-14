@@ -1,0 +1,22 @@
+/*TYPOGRAPHY*/
+
+body {
+	font-weight:300;
+}
+h1::selection,h2::selection,h3::selection,h4::selection,h5::selection,h6::selection,p::selection,span::selection,a::selection {
+	background-color:#00a699;
+	color:#fff;
+}
+
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.2em; }
+h3 { font-size: 1em; }
+h4 { font-size: 0.8em; }
+h5 { font-size: 0.6em; }
+h6 { font-size: 0.4em; }
+
+blockquote {
+	font-size: 2em;
+	padding-left:20px;
+	border-left:3px solid blue;
+}

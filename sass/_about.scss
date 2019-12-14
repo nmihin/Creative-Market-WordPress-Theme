@@ -1,0 +1,263 @@
+/*ABOUT*/
+
+.about {
+    .about-title {
+        width:100%;
+        float:left;
+        text-align:center;
+        background-color:#222;
+        color:#fff;
+        font-size:2em;
+        position:relative;
+        z-index:1;
+        margin:0;
+    }	
+    .about-breadcrumb {
+        position:absolute;
+        right:30px;
+    }
+    img {
+        height:auto;
+    }
+    p {
+        b {
+            font-weight:500;
+        }
+    }
+    .about-info {
+        position:relative;
+        padding: 1.5em;
+        display: block;
+        float: left;
+        .mail-info {
+            position: absolute;
+            top: 0;
+            left: 3em;
+            padding: 1em;
+            margin-right: 1em;
+            color: #fff;
+            background-color: rgba(0, 166, 154, 0.8) !important;
+            color:#fff !important;
+            z-index:90;
+            height:100%;
+            p {
+                color:#fff;
+            }
+        }
+    }
+    #map-canvas {
+        width: 100%;
+        height: 20em;
+    }	
+    .wpcf7 {
+        .wpcf7-form input[type=text], .wpcf7-form input[type=password], .wpcf7-form input[type=email], .wpcf7-form input[type=url], .wpcf7-form input[type=date], .wpcf7-form input[type=month], .wpcf7-form input[type=time], .wpcf7-form input[type=datetime], .wpcf7-form input[type=datetime-local], .wpcf7-form input[type=week], .wpcf7-form input[type=number], .wpcf7-form input[type=search], .wpcf7-form input[type=tel], .wpcf7-form input[type=color], .wpcf7-form select, .wpcf7-form textarea, .wpcf7-form input:not([type]) {
+            outline:none;
+            border-bottom:2px solid #00a699 !important;
+            font-family: 'Open Sans', sans-serif;
+            font-weight:200;
+            background-color:#444;
+            -webkit-transition: background-color 0.3s linear;
+            -moz-transition: background-color 0.3s linear;
+            -o-transition: background-color 0.3s linear;
+            -ms-transition: background-color 0.3s linear;
+            transition: background-color 0.3s linear;             
+            border-radius:0;
+            box-shadow:0 0 0;
+            color:#f2f2f2;
+            width:24em;
+            border:0;
+            font-size: 0.8em;
+            padding: 1em;
+            border: 0;
+            &:focus {
+                background-color:#666;
+                -webkit-transition: background-color 0.3s linear;
+                -moz-transition: background-color 0.3s linear;
+                -o-transition: background-color 0.3s linear;
+                -ms-transition: background-color 0.3s linear;
+                transition: background-color 0.3s linear;    
+            }
+        }
+        .wpcf7-form {
+            span {
+                margin-top:0;
+                float:none;
+            }
+            [class^="your-"], [class*=" your-"] {
+                font-family: 'icomoon';
+                speak: none;
+                font-style: normal;
+                font-weight: normal;
+                font-variant: normal;
+                text-transform: none;
+                line-height: 1;
+
+                /* Better Font Rendering =========== */
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            .your-name {
+                color:#888;
+                &:before {
+                    position:absolute;
+                    right: 0.5em;
+                    top: 0.1em;
+                    content: "\e950";
+                }
+            }
+            
+            .your-email {
+                color:#888;  
+                &:before {
+                    position:absolute;
+                    right: 0.5em;
+                    top: 0.1em;                    
+                    content: "\e92b";               
+                }
+            }
+            .your-subject {
+                color:#888;  
+                &:before {
+                    position:absolute;
+                    right: 0.5em;
+                    top: 0.1em;                    
+                    content: "\e939";               
+                }
+            }
+            .your-phone {
+                color:#888;    
+                &:before {
+                    position:absolute;
+                    right: 0.5em;
+                    top: 0.1em;                    
+                    content: "\e93d";                 
+                }
+            }
+            .your-message {
+                color:#888;
+                &:after {
+                    position:absolute;
+                    right: 0.5em;
+                    top: 0.5em;                    
+                    content: "\e92e";                
+                }
+            }
+            .wpcf7-not-valid-tip {
+                font-family: 'Open Sans', sans-serif;
+                position: absolute;
+                top: 100%;
+                left: 20%;
+                z-index: 100;
+                background: #00A699;
+                border: 1px solid #00A699;
+                font-size: 12px;
+                width: 180px;
+                padding: 2px;
+                color: #fff;
+                padding: 10px;                
+            }
+            .wpcf7-validation-errors {
+                font-weight:600;
+            }
+            @media screen and (max-width: 35.5em) {
+                .your-name,.your-email,.your-phone {
+                    &:before {
+                        display:none;
+                    }
+                }
+                .your-message {
+                    &:after {
+                        display:none;
+                    }          
+                }
+            }
+        }
+        .wpcf7-mail-sent-ok {
+            border:0px !important;
+            color:#00a699;
+        }
+        .pure-button, .wpcf7-submit {
+            font-family: 'Open Sans', sans-serif;
+            background-color: #00a699;
+            float: right;
+            margin: 0.8em 1.5% 0.8em 0.5em !important;
+            outline: 0;
+            border-radius: 0;
+            border:0;
+            color: #fff;
+            padding: 0.4em 0.6em;
+            display: block;
+            font-size: 1.2em;
+            font-weight: 300;
+            display: inline-block;
+            -webkit-transition: all 0.3s linear;
+            -moz-transition: all 0.3s linear;
+            -o-transition: all 0.3s linear;
+            -ms-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+            &:hover {
+                background-color:#222;
+                color:#fff;
+                cursor:pointer;
+                -webkit-transition: all 0.3s linear;
+                -moz-transition: all 0.3s linear;
+                -o-transition: all 0.3s linear;
+                -ms-transition: all 0.3s linear;
+                transition: all 0.3s linear;
+            }
+        }
+        .wpcf7-validation-errors {
+            border:0;
+            padding:0;
+            color:red;
+        }
+    }
+}
+
+/*TABLET*/
+@media screen and (max-width: 64em) {
+    .about {
+        .about-icon {
+            img {
+                width:100%;
+            }
+        }
+    }
+}
+
+/*MOBILE*/
+@media screen and (min-width: 30em) {
+    .wpcf7 {
+        .pure-u-sm-8-24 {
+            margin-bottom:1.4em;
+            input { width:95% !important; }
+        }
+        .pure-u-sm-24-24 {
+            textarea { width:98.5% !important; }
+        }
+    }
+}
+@media screen and (max-width: 40em) {
+    .about {
+        .about-icon {
+            width:100%;
+            img {
+                height: auto;
+                text-align: center;
+                margin: 0 auto;
+                display: block;
+                padding: 1em;				
+            }
+        }
+        .about-info {
+            width:100%;
+            padding:0 1em;
+            margin:1em 0;
+        }
+        .contact-info {
+            .about-info {
+                padding:0 !important;
+            }
+        }
+    }
+}

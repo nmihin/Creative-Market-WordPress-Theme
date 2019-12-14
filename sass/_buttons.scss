@@ -1,0 +1,98 @@
+/*BUTTONS*/
+
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Button 2 */
+.btn-2 {
+    background: #6AA385;
+    color: #fff;
+    box-shadow: 0 6px #53886C;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none;
+}
+
+/* Button 2c */
+.btn-2c {
+    border-radius: 5px;
+}
+
+.btn-2c:hover {
+    box-shadow: 0 4px #53886C;
+    top: 2px;
+}
+
+.btn-2c:active {
+    box-shadow: 0 0 #53886C;
+    top: 6px;
+}
+
+.recent-link {
+    position: relative;
+    background-color: #00a699;
+    margin: 0 auto;
+    top:1.5em;
+    width:7em;
+    outline: 0;
+    border-radius: 0;
+    border: 0;
+    color: #fff !important;
+    padding: 0.4em 0.8em;
+    font-size: 1em;
+    font-weight: 300;
+    display: inline-block;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.recent-link:hover {
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;   
+}
+
+//GHOST BUTTON
+.bttn {
+    border:0.15em solid #fff;
+    border-radius:0;
+    padding: 1.2em 2.5em;
+    margin:1.5em;
+    display:inline-block;
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+}

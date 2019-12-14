@@ -1,0 +1,334 @@
+/*DASHBOARD*/
+
+.dashicons-portfolio::before,.dashicons-businessman::before {
+	color:#00a699 !important;
+}
+
+.dashicons-portfolio::before:hover,.dashicons-businessman::before:hover {
+	color:#10b9b9 !important;
+}
+
+.dashicons-hammer::before,.dashicons-hammer::before {
+	color:#00a699 !important;
+}
+.dashicons-editor-quote::before,.dashicons-editor-quote::before {
+	color:#00a699 !important;
+}
+
+.dashicons-lightbulb::before,.dashicons-lightbulb::before {
+	color:#00a699 !important;
+}
+
+/*Custom */
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?3tt2yn');
+    src:    url('fonts/icomoon.eot?3tt2yn#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.woff2?3tt2yn') format('woff2'),
+        url('fonts/icomoon.ttf?3tt2yn') format('truetype'),
+        url('fonts/icomoon.woff?3tt2yn') format('woff'),
+        url('fonts/icomoon.svg?3tt2yn#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="fa-"], [class*=" fa-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.fa-arrow-left:before {
+    content: "\e900";
+}
+.fa-arrow-line-left:before {
+    content: "\e901";
+}
+.fa-arrow-line-right:before {
+    content: "\e902";
+}
+.fa-arrow-right:before {
+    content: "\e903";
+}
+.fa-award:before {
+    content: "\e904";
+}
+.fa-behance:before {
+    content: "\e905";
+}
+.fa-blogger:before {
+    content: "\e906";
+}
+.fa-brush:before {
+    content: "\e907";
+}
+.fa-brush-small:before {
+    content: "\e908";
+}
+.fa-camera:before {
+    content: "\e909";
+}
+.fa-can:before {
+    content: "\e90a";
+}
+.fa-cart:before {
+    content: "\e90b";
+}
+.fa-delicious:before {
+    content: "\e90c";
+}
+.fa-diamond:before {
+    content: "\e90d";
+}
+.fa-digg:before {
+    content: "\e90e";
+}
+.fa-dribbble:before {
+    content: "\e90f";
+}
+.fa-dropbox:before {
+    content: "\e910";
+}
+.fa-eye:before {
+    content: "\e911";
+}
+.fa-facebook:before {
+    content: "\e912";
+}
+.fa-feather:before {
+    content: "\e913";
+}
+.fa-filter:before {
+    content: "\e914";
+}
+.fa-flag:before {
+    content: "\e915";
+}
+.fa-flickr:before {
+    content: "\e916";
+}
+.fa-forrst:before {
+    content: "\e917";
+}
+.fa-frame:before {
+    content: "\e918";
+}
+.fa-globe:before {
+    content: "\e919";
+}
+.fa-glue:before {
+    content: "\e91a";
+}
+.fa-google-plus:before {
+    content: "\e91b";
+}
+.fa-graffiti:before {
+    content: "\e91c";
+}
+.fa-hand:before {
+    content: "\e91d";
+}
+.fa-heart:before {
+    content: "\e91e";
+}
+.fa-ink:before {
+    content: "\e91f";
+}
+.fa-instagram:before {
+    content: "\e920";
+}
+.fa-key:before {
+    content: "\e921";
+}
+.fa-keyboard:before {
+    content: "\e922";
+}
+.fa-landscape:before {
+    content: "\e923";
+}
+.fa-laptop:before {
+    content: "\e924";
+}
+.fa-lastfm:before {
+    content: "\e925";
+}
+.fa-leaf:before {
+    content: "\e926";
+}
+.fa-link:before {
+    content: "\e927";
+}
+.fa-linkedin:before {
+    content: "\e928";
+}
+.fa-magnet:before {
+    content: "\e929";
+}
+.fa-mail:before {
+    content: "\e92a";
+}
+.fa-mailbox:before {
+    content: "\e92b";
+}
+.fa-marker:before {
+    content: "\e92c";
+}
+.fa-message:before {
+    content: "\e92d";
+}
+.fa-microphone:before {
+    content: "\e92e";
+}
+.fa-monitor:before {
+    content: "\e92f";
+}
+.fa-monkey:before {
+    content: "\e930";
+}
+.fa-mouse:before {
+    content: "\e931";
+}
+.fa-movietape:before {
+    content: "\e932";
+}
+.fa-mug:before {
+    content: "\e933";
+}
+.fa-office:before {
+    content: "\e934";
+}
+.fa-palette:before {
+    content: "\e935";
+}
+.fa-paypal:before {
+    content: "\e936";
+}
+.fa-pen:before {
+    content: "\e937";
+}
+.fa-pencil:before {
+    content: "\e938";
+}
+.fa-penhead:before {
+    content: "\e939";
+}
+.fa-phone:before {
+    content: "\e93a";
+}
+.fa-picassa:before {
+    content: "\e93b";
+}
+.fa-pin:before {
+    content: "\e93c";
+}
+.fa-pinterest:before {
+    content: "\e93d";
+}
+.fa-roller:before {
+    content: "\e93e";
+}
+.fa-rss:before {
+    content: "\e93f";
+}
+.fa-ruler:before {
+    content: "\e940";
+}
+.fa-scissors:before {
+    content: "\e941";
+}
+.fa-search:before {
+    content: "\e942";
+}
+.fa-skype:before {
+    content: "\e943";
+}
+.fa-stamp:before {
+    content: "\e944";
+}
+.fa-stand:before {
+    content: "\e945";
+}
+.fa-staple:before {
+    content: "\e946";
+}
+.fa-star:before {
+    content: "\e947";
+}
+.fa-triangle:before {
+    content: "\e948";
+}
+.fa-tumblr:before {
+    content: "\e949";
+}
+.fa-twitter:before {
+    content: "\e94a";
+}
+.fa-user:before {
+    content: "\e94b";
+}
+.fa-users:before {
+    content: "\e94c";
+}
+.fa-video:before {
+    content: "\e94d";
+}
+.fa-vimeo:before {
+    content: "\e94e";
+}
+.fa-vine:before {
+    content: "\e94f";
+}
+.fa-youtube:before {
+    content: "\e950";
+}
+
+#option-tree-settings-api .ui-widget-header {
+    border:0;
+    background:transparent;
+}
+
+#option-tree-settings-api .wrap.settings-wrap .ui-tabs-nav {
+    width:154px !important;
+}
+
+#option-tree-settings-api .ui-state-default a {
+    font-size: 14px;
+    font-weight:normal;
+}
+
+#option-tree-settings-api .wrap.settings-wrap .ui-tabs-nav li.ui-state-active {
+    background:#fff;
+    background-color:#fff !important;
+}
+
+#option-tree-settings-api .ui-tabs-nav {
+    width:148px !important;
+}
+
+#option-tree-settings-api .ui-tabs-nav .ui-state-default {
+    width:100%;
+    background:transparent;
+}
+
+#option-tree-settings-api .ui-tabs-nav .ui-tabs-active {
+    background:#fff !important;
+}
+
+#option-tree-settings-api .ui-tabs-nav .ui-state-default a{
+    outline:none;
+}
+
+#option-tree-settings-api .ui-widget-header {
+    overflow:hidden;
+}
